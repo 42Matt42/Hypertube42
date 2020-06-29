@@ -1,0 +1,14 @@
+{
+  "name": "hypertuberendu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setupServerLinux": "cd ./servers && npm install && npm run setuplinux && npm run start",
+    "setupServerMac": "cd ./servers && npm install && npm run setupmac && npm run start",
+    "setupFront": "cd ./clients && npm install && npm run serve"
+  },
+  "author": "",
+  "license": "ISC"
+}
